@@ -23,38 +23,38 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
+                        Title = "The RM",
+                        ReleaseDate = DateTime.Parse("2003-1-31"),
                         Genre = "Romantic Comedy",
-                        Rating = "R",
-                        Price = 7.99M
-                    },
-
-                    new Movie
-                    {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
                         Rating = "PG",
-                        Price = 8.99M
+                        Price = 4.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
+                        Title = "The Singles Ward",
+                        ReleaseDate = DateTime.Parse("2002-1-30"),
+                        Genre = "Romantic Comedy",
+                        Rating = "PG",
+                        Price = 4.99M
+                    },
+
+                    new Movie
+                    {
+                        Title = "The Best Two Years",
+                        ReleaseDate = DateTime.Parse("2004-2-20"),
+                        Genre = "Drama",
                         Rating = "PG",
                         Price = 9.99M
                     },
 
                     new Movie
                     {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
-                        Rating = "NA",
-                        Price = 3.99M
+                        Title = "The Singles 2nd Ward",
+                        ReleaseDate = DateTime.Parse("2007-12-11"),
+                        Genre = "Romantic Comedy",
+                        Rating = "PG",
+                        Price = 4.99M
                         
                     }
                 );
