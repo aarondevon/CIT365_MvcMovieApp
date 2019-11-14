@@ -8,8 +8,14 @@ namespace MvcMovie.Models
     public class Movie
     {
         public int Id { get; set; }
+
         [StringLength(60,MinimumLength = 3)]
         public string Title { get; set; }
+
+        public string Image { get; set; }
+
+        
+
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }

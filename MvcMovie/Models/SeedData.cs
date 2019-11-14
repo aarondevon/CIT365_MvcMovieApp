@@ -24,6 +24,7 @@ namespace MvcMovie.Models
                     new Movie
                     {
                         Title = "The RM",
+                        Image = @"https://m.media-amazon.com/images/M/MV5BMTcyMTUyODAyM15BMl5BanBnXkFtZTYwMDc1NDk5._V1_.jpg",
                         ReleaseDate = DateTime.Parse("2003-1-31"),
                         Genre = "Romantic Comedy",
                         Rating = "PG",
@@ -33,6 +34,7 @@ namespace MvcMovie.Models
                     new Movie
                     {
                         Title = "The Singles Ward",
+                        Image = "https://m.media-amazon.com/images/M/MV5BMTQyNDAwNjc4M15BMl5BanBnXkFtZTYwMzQ5NDk5._V1_.jpg",
                         ReleaseDate = DateTime.Parse("2002-1-30"),
                         Genre = "Romantic Comedy",
                         Rating = "PG",
@@ -42,6 +44,7 @@ namespace MvcMovie.Models
                     new Movie
                     {
                         Title = "The Best Two Years",
+                        Image = "https://m.media-amazon.com/images/M/MV5BMTIwNDc2NDk1OF5BMl5BanBnXkFtZTcwMDc3NDAwMQ@@._V1_.jpg",
                         ReleaseDate = DateTime.Parse("2004-2-20"),
                         Genre = "Drama",
                         Rating = "PG",
@@ -51,6 +54,7 @@ namespace MvcMovie.Models
                     new Movie
                     {
                         Title = "The Singles 2nd Ward",
+                        Image = "https://m.media-amazon.com/images/M/MV5BMTM2OTExMjg2OF5BMl5BanBnXkFtZTcwMDcyMzU1MQ@@._V1_.jpg",
                         ReleaseDate = DateTime.Parse("2007-12-11"),
                         Genre = "Romantic Comedy",
                         Rating = "PG",
